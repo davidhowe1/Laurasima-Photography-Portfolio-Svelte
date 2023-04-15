@@ -1,6 +1,5 @@
 
 <script>
-// @ts-nocheck
     export let image;
     export let paragraph;
     export let title;
@@ -18,7 +17,7 @@
     <div class="right-side">
         <h1 class="title">{title}</h1>
         <p class="description">{paragraph}</p>
-        <a target={link === 'https://www.instagram.com/laur.analogue/' ? '_blank' : '_self'} 
+        <a target={link === 'https://www.instagram.com/laur.analogue/' ? '_blank' : ''} 
         href={link}>
             <button>{button}</button>
         </a>
@@ -30,7 +29,7 @@
     article {
         display: grid;
         grid-template-columns: 50% 50%;
-        height: 60vh;
+        height: 75vh;
     }
 
     article.reverse div:nth-child(1) {
@@ -84,6 +83,12 @@
         border: 2px solid black;
         transition: 0.15s;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .right-side {
+            margin: 0px 40px;
+        }
     }
 
     @media screen and (max-width: 1000px) {
