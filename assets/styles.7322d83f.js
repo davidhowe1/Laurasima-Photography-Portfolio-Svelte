@@ -1,4 +1,4 @@
-import{S as C,i as D,s as F,e as u,b as t,c as H,n as f,f as w,t as y,a as T,j as v,d as i,r as E}from"./index.625efbfb.js";function G(a){let e;return{c(){e=u("footer"),e.innerHTML=`<span class="svelte-ap7b2r"><p class="copyright svelte-ap7b2r">\xA9 Laurasima 2023</p> 
+import{S as C,i as D,s as F,e as u,b as t,c as H,n as f,f as w,t as y,a as T,j as v,d as i,r as E}from"./index.0fb5a61e.js";function G(a){let e;return{c(){e=u("footer"),e.innerHTML=`<span class="svelte-ap7b2r"><p class="copyright svelte-ap7b2r">\xA9 Laurasima 2023</p> 
 
         <p class="credit svelte-ap7b2r">Made by <a target="_blank" href="https://david-howe.co.uk" class="svelte-ap7b2r">david-howe.co.uk</a></p></span> 
 
